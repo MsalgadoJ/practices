@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div>
+
+    </div>
+    <% if(language == 'es') { %>
+      <h1><%= translate.es.course %></h1>
+      
+    <% } else { %>
+      <h1><%= translate.en.course %></h1>
+    <% } %>
+
+    
+  </body>
+</html>
